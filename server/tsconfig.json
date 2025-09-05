@@ -11,5 +11,7 @@
   },
   "ts-node": {
     "transpileOnly": true
-  }
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
 }
