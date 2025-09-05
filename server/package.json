@@ -2,11 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "npx ts-node index.ts",
+    "dev": "npx ts-node  index.ts",
     "seed": "npx ts-node seed-db.ts",
-    "build": "node --max-old-space-size=2048 ./node_modules/typescript/bin/tsc",
+    "build": "tsc",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -34,8 +34,5 @@
     "langchain": "^0.3.32",
     "mongodb": "^6.19.0",
     "zod": "^3.25.76"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

@@ -44,7 +44,7 @@ const ChatbotWidget = () => {
 		setInputValue("");
 		setIsLoading(true);
 
-		const endpoint = threadId ? `${process.env.ENDPOINT!}/${threadId}` : process.env.ENDPOINT!;
+		const endpoint = threadId ? `http://localhost:8000/chat/${threadId}` : "http://localhost:8000/chat";
 
 		try {
 			const res = await fetch(endpoint, {
