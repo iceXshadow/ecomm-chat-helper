@@ -1,4 +1,4 @@
-# ShopAssist - Intelligent E-commerce Chatbot
+# ShopAssist - Intelligent E-commerce Chatbot 
 
 A versatile and intelligent AI chatbot built with LangGraph that can be integrated into any e-commerce platform to provide customers with natural language product discovery and assistance.
 
@@ -56,3 +56,20 @@ The system is built around a LangGraph agent that can:
 ```bash
 git clone <repository-url>
 cd ecom-chat
+```
+2. server directory
+```bash
+cd server
+npm install
+npm run dev
+```
+3. client directory
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+
+##### credits: FreeCodeCamp
